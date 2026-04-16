@@ -1,0 +1,137 @@
+/* FIX the aside hover (override lab04) */
+aside:hover {
+    display: block;
+}
+
+/* Menu layout */
+.menu {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Header styling */
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.7em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Aside styling (textbox with fade image) */
+aside {
+    float: right;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 3px solid purple;
+    border-radius: 10px;
+
+    background-image: url("images/fade.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 50%;
+
+    box-shadow: 8px 8px 10px #aaa;
+}
+
+/* Two column layout */
+#lists {
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+#tables {
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+/* Center table inside column */
+table {
+    margin: auto;
+}
+
+/* Bottom sections */
+#hyperlinks {
+    clear: both;
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+#images {
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+/* Image box */
+figure {
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+/* Fix list alignment */
+ol, ul {
+    text-align: left;
+}
+
+dl {
+  border: 2px solid #b3b4b3;
+  padding: 15px;
+  background-color: #ffffff;
+  margin-left: 15%;
+  width: 400px;
+}
+
+dt {
+  font-weight: bold;
+  color: #2E7D32;
+  display: inline;
+  margin: 0;
+}
+
+dd {
+  display: inline;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+dd:after {
+  content: "";
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Footer layout */
+footer {
+    border-top: 4px double gray;
+    margin: 0.5em;
+    padding: 0.5em;
+    clear: both;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
+/* Prevent layout breaking */
+article {
+    min-width: 30em;
+}
