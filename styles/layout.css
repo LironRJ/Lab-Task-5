@@ -1,15 +1,8 @@
-/* FIX the aside hover (override lab04) */
-aside:hover {
-    display: block;
-}
-
-/* Menu layout */
 .menu {
     display: inline-block;
     margin-right: 5px;
 }
 
-/* Header styling */
 header {
     border: 1px solid darkgray;
     margin: 0.5em;
@@ -18,7 +11,6 @@ header {
     text-align: center;
 }
 
-/* Aside styling (textbox with fade image) */
 aside {
     float: right;
     width: 30%;
@@ -35,7 +27,6 @@ aside {
     box-shadow: 8px 8px 10px #aaa;
 }
 
-/* Two column layout */
 #lists {
     float: left;
     width: 45%;
@@ -48,12 +39,10 @@ aside {
     text-align: center;
 }
 
-/* Center table inside column */
 table {
     margin: auto;
 }
 
-/* Bottom sections */
 #hyperlinks {
     clear: both;
     float: left;
@@ -67,13 +56,11 @@ table {
     text-align: center;
 }
 
-/* Image box */
 figure {
     border: 2px solid #ccc;
     padding: 5px;
 }
 
-/* Fix list alignment */
 ol, ul {
     text-align: left;
 }
@@ -105,7 +92,6 @@ dd:after {
   margin-bottom: 10px;
 }
 
-/* Footer layout */
 footer {
     border-top: 4px double gray;
     margin: 0.5em;
@@ -131,7 +117,6 @@ footer p:last-child {
     text-align: right;
 }
 
-/* Prevent layout breaking */
 article {
     min-width: 30em;
 }
